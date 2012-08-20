@@ -32,10 +32,10 @@ You can simply put the file into the Zend/Translate directory to initialise it l
         )
     );
 	
-, or follow the [Zend Translate Guidelines](framework.zend.com/manual/en/zend.translate.adapter.html#zend.translate.adapter.selfwritten) on integrating self written adapters.
+or follow the [Zend Translate Guidelines](framework.zend.com/manual/en/zend.translate.adapter.html#zend.translate.adapter.selfwritten) on integrating self written adapters.
 
 
-# Motivation # 
+# Motivation #
 
 I primarly wrote this adapter to use the same translation resource files for Javascript/JQuery and PHP.
 I use [i18next](http://i18next.com) for translation in Javascript in conjunction with [i18next Webtranslate](18next.com/pages/ext_webtranslate.html)
