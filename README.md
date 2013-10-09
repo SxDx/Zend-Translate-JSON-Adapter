@@ -15,14 +15,14 @@ Example:
         "not_found": "Not found",
         "network_error": "Network error",
         "fatal": {
-            "search": "Search Error Nr. %1$s"
+            "search": "Search Error Nr. __1__ : __2__"
         }
       }
     }
 
 You can access the translations hierarchical e.g. `$translate->_("app.name")`
 
-Simply pass parameters, no need for sprintf, e.g. `$translate->_("app.error.fatal.search", $errorNumber)`
+Simply pass parameters, no need for sprintf, e.g. `$translate->_("app.error.fatal.search", $errorNumber, $errorDescription)`
 
 # Initialisation #
 
